@@ -33,7 +33,7 @@ body {
    
 }
 
-#name {
+#name, #city, #state, #monthly, #rent, #utility, #groceries, #eating, #streaming, #none, #make, #budget {
     background-color: rgba(255, 255, 255, 0.396);
     border-radius: 5px;
     
@@ -50,7 +50,7 @@ body {
     background-color: rgba(173, 230, 196, 0.83);
     padding: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    
     margin-left: 650px;
     width: 500px;
     margin-bottom: -280px;
@@ -102,6 +102,14 @@ body {
     background-color: rgb(185, 221, 217);
 }
 
+#nameButton, #cityButton, #monthlyButton, #rentButton, #utilityButton, #groceriesButton, #eatingButton, #streamingButton, #noneButton, #makeButton, #budgetButton{
+    padding: 5px;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(185, 221, 217);
+}
+
 .speech-bubble {
     position: absolute;
     background-color: rgb(185, 221, 217);
@@ -137,7 +145,7 @@ body {
     background-color:rgba(173, 216, 230, 0.921);
     width: 500px;
     height: 500px;
-    border-radius: 10px;
+    
     margin-top: 100px;
     text-align: center;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
