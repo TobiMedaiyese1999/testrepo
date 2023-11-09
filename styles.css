@@ -12,20 +12,40 @@
 }
 
 body {
-    /* background-image: url(./1000_F_585491582_UPsWxVxxbmhWkeRY8kaoOQ8fe7XOe6gw.jpeg); */
+    background-image: url(./pixel-art-city-background-blue-with-buildings-constructions-bridge-and-cloudy-sky-for-8bit-game-vector.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
-#questions, #frontPage {
+#questions {
    display: flex;
    text-align: center;
    align-items: center;
    flex-direction: column;
-   align-content: center;
-   justify-content: center;
    margin-top: 200px;
+   
+}
+
+#name {
+    background-color: rgba(255, 255, 255, 0.396);
+    border-radius: 5px;
+    
+}
+
+#one, #eleven, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
+    background-color: rgba(173, 216, 230, 0.83);
+    padding: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#questions {
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    
 }
 
 #header {
@@ -50,17 +70,26 @@ body {
 
 #image {
     
-    margin-top: 215px;
+    margin-top: 170px;
+    position: relative;
     
 }
 
 #frontPage {
-    
+    margin-top: 200px;
+}
+
+#frontButton {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(185, 221, 217);
 }
 
 .speech-bubble {
     position: absolute;
-    background-color: rgb(191, 238, 191);
+    background-color: rgb(185, 221, 217);
     color: black;
     padding: 15px;
     border-radius: 10px;

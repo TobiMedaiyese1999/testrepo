@@ -69,7 +69,7 @@ document.getElementById("frontButton").onclick = () => {
 document.getElementById("nameButton").onclick = () => {
     divOne.style.display = "none"
     divEleven.style.display = "block"
-    document.getElementById("quip").innerHTML = "Stupid name, anyway lets learn a little bit about where you plan on living"
+    document.getElementById("quip").innerHTML = `Ok ${name.value}, lets learn a little bit about where you plan on living`
 
 }
 document.getElementById("cityButton").onclick = () => {
@@ -88,7 +88,7 @@ document.getElementById("monthlyButton").onclick = () => {
 document.getElementById("rentButton").onclick = () => {
     divThree.style.display = "none"
     divFour.style.display = "block"
-    document.getElementById("quip").innerHTML = "optimistic"
+    document.getElementById("quip").innerHTML = "optimistic. What about utilities"
 
 
 }
@@ -97,13 +97,14 @@ document.getElementById("utilityButton").onclick = () => {
     
     divFour.style.display = "none"
     divFive.style.display = "block"
-    
-}
+    document.getElementById("quip").innerHTML = "Alright fatso let's see how much you plan on spending for groceries."}
 
 document.getElementById("groceriesButton").onclick = () => {
     
     divFive.style.display = "none"
     divSix.style.display = "block"
+    document.getElementById("quip").innerHTML = "Eating out gets expensive, don't go too crazy"
+
     
 }
 
@@ -111,18 +112,23 @@ document.getElementById("eatingButton").onclick = () => {
     
     divSix.style.display = "none"
     divSeven.style.display = "block"
+    document.getElementById("quip").innerHTML = "Have you finished AOT? The finale was crazy"
+
 }
 
 document.getElementById("streamingButton").onclick = () => {
     
     divSeven.style.display = "none"
     divEight.style.display = "block"
+    document.getElementById("quip").innerHTML = "I spent $500 last month on ubers because I'm terrified of driving"
+
 }
 
 document.getElementById("noneButton").onclick = () => {
     
     divEight.style.display = "none"
     divNine.style.display = "block"
+    document.getElementById("quip").innerHTML = "Your parents told you that degree was useless and now look at you"
     
 }
 
@@ -130,6 +136,8 @@ document.getElementById("makeButton").onclick = () => {
     
     divNine.style.display = "none"
     divTen.style.display = "block"
+    document.getElementById("quip").innerHTML = "Let's be realistic here"
+
     
 }
 
@@ -137,7 +145,7 @@ document.getElementById("budgetButton").onclick = () => {
     
     divTen.style.display = "none"
     results.style.display = "block"
-   
+    document.getElementById("quip").innerHTML = "How'd you do"
 
     let displayName = theName.value;
     let displayMonthly = monthly.value

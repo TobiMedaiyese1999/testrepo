@@ -1,0 +1,34 @@
+* {
+    text-align: center;
+    /* background-color: rgb(37, 36, 36);
+    color: white; */
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./pixel-art-city-background-blue-with-buildings-constructions-bridge-and-cloudy-sky-for-8bit-game-vector.jpeg);
+}
+
+#summary {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#userData, #cityData {
+    background-color:rgba(173, 216, 230, 0.921);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
