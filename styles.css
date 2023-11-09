@@ -1,3 +1,7 @@
+@media (max-width: 767px) {
+    
+}
+
 * {
     text-align: center;
     /* background-color: rgb(37, 36, 36);
@@ -35,10 +39,20 @@ body {
 }
 
 #one, #eleven, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten {
-    background-color: rgba(173, 216, 230, 0.83);
+    background-color: rgba(173, 230, 196, 0.83);
     padding: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+#frontPage {
+    background-color: rgba(173, 230, 196, 0.83);
+    padding: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-left: 650px;
+    width: 500px;
+    margin-bottom: -280px;
 }
 
 #questions {
@@ -100,3 +114,31 @@ body {
 }
 
 
+#summary {
+    display: flex;
+    gap: 40px;
+    margin-top: -200px;
+    margin-bottom: -200px;
+    font-size: 20px;
+    
+   
+}
+
+#sum, #cityTotal {
+    color: green;
+}
+
+#takeHome {
+    color: red;
+}
+
+#userData, #cityData {
+    background-color:rgba(173, 216, 230, 0.921);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
