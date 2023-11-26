@@ -59,7 +59,7 @@
                     <button id="rentButton" onclick="">Submit</button>
                 </div>
                 <div id="four">
-                    <h1> How much will you budget for utilities per month?</h1>
+                    <h1> How much will you budget for utilities per month? *including internet*</h1>
                     <br>
                     <input id="utility" type="text">
                     <button id="utilityButton" onclick="">Submit</button>
@@ -99,10 +99,11 @@
                 </div>
     
                 <div id="ten">
-                    <h1> What would you like to save up for?
+                    <h1> What would you like to save up for? Include name and price.
                     </h1>
                     <br>
-                    <input id="budget" type="text">
+                    <input id="budget" type="text" placeholder="ex. House">
+                    <input id="budgetCost" type="text" placeholder="ex. 500000">
                     <button id="budgetButton" onclick="">Submit</button>
                 </div>
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -146,14 +147,41 @@
     </div>
             </div>
         
+      
+        <div id="finalLink">
+            <button id="finale">Click Here To Go to Your Summary </button>
+        </div>
+        
+       
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div id="finalResults">
+            <div id="result">
+                <h1 id="resultHeader"></h1>
+                
+                <ul id="idgaf">
+                    <li id="resultRent2"></li>
+                    <br>
+                    <li id="resultUtility2"></li>
+                    <br>
+                    <li id="resultGroceries2"></li>
+                    <br>
+                    <li id="resultRestaurants2"></li>
+                    <br>
+                    <li id="resultNone2"></li>
+                </ul>
+            </div>
+            <div id="planner">
+                <h1 id="plannerHeader"> </h1>
+                <p id="plannerText"></p>
+            </div>
+        </div>
         <div class="speech-bubble">
             <p id="quip">Let's see how this goes... </p>
         </div>
-        
         <div id="image">
             <img src="./dcd0d7415f39aeb3bc6189266679dacb (1).png" height="500px">
         </div>
-
         <script src="./index.js"></script>
     </body>
 
