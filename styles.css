@@ -29,7 +29,7 @@ body {
    text-align: center;
    align-items: center;
    flex-direction: column;
-   margin-top: 200px;
+   margin-top: 10%;
    
 }
 
@@ -85,7 +85,7 @@ body {
 
 #image {
     
-    margin-top: 170px;
+    margin-top: 10%;
     position: relative;
     
 }
@@ -116,21 +116,22 @@ body {
     color: black;
     padding: 15px;
     border-radius: 10px;
-    margin-left: 1000px;
-    margin-top: 200px;
+    margin-left: 55%;
+    margin-top: 10%;
    border: 1px solid;
     width: 200px;
 }
 
 #finale{
     position: absolute;
-    background-color: rgb(185, 221, 217);
+    background-color: rgba(173, 216, 230);
     color: black;
     padding: 15px;
-    border-radius: 10px;
-    margin-left: 300px;
-    margin-top: 100px;
+    
+    margin-left: 44%;
+    margin-top: -23%;
     width: 200px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 
    border: 1px solid;
     
