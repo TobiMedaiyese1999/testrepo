@@ -290,21 +290,21 @@ document.getElementById("budgetButton").onclick = () => {
     if (displayRent > rentFinal) {
         difference = displayRent - rentFinal
         document.getElementById("resultRent2").style.color = "green"
-        rentStatement = `You overspent on rent by $${Math.round(difference)} compared to the average, you can ease up a little if you want.`
+        rentStatement = `You overbudgeted for rent by $${Math.round(difference)} compared to the average, you can ease up a little if you want.`
     } else {
         difference = rentFinal - displayRent;
         document.getElementById("resultRent2").style.color = "red"
-        rentStatement = `Try and save $${Math.round(difference)} for rent to get a nice place` 
+        rentStatement = `Try and save $${Math.round(difference)} for rent to get a nice place, or use the money for something else I don't really care.` 
     }
     if (displayUtilities > (cityUtil + cityInt)) {
         difference5 = displayUtilities - (cityUtil + cityInt)
         document.getElementById("resultUtility2").style.color = "green"
 
-        utilStatement = `You've budgeted enough for utilities, but by $${Math.round(difference5)}, you can ease up a little if you want`
+        utilStatement = `You've budgeted enough for utilities, but by $${Math.round(difference5)}, you can ease up a little if you want.`
     } else {
         difference5 = (cityUtil + cityInt) - displayUtilities
         document.getElementById("resultUtility2").style.color = "red"
-        utilStatement = `Save $${Math.round(difference5)} more for utilities if you can.`
+        utilStatement = `Winter comes for us all. Save $${Math.round(difference5)} more for utilities if you can.`
     }
     if (displayGroceries > (cityGroc*155.1)) {
         difference2 = displayGroceries - cityGroc*155.1
@@ -318,7 +318,7 @@ document.getElementById("budgetButton").onclick = () => {
     if (displayEating > ((cityRest/2.5)*2.5*4)) {
         difference3 = displayEating - (cityRest/2.5)*2.5*4
         document.getElementById("resultRestaurants2").style.color = "green"
-        eatStatement = `You've budgeted enough for eating out, but by ${Math.round(difference3)}, you can ease up a little if you want`
+        eatStatement = `You've budgeted enough for eating out, but by ${Math.round(difference3)}, stop being lazy and go cook at home.`
     } else {
         difference3 = ((cityRest/2.5)*2.5*4) - displayEating
         document.getElementById("resultRestaurants2").style.color = "red"
@@ -330,7 +330,7 @@ document.getElementById("budgetButton").onclick = () => {
         noneStatement = `You've budgeted enough for non-essentials, but by $${Math.round(difference4)}, just bootleg your tv shows like the rest of us.`
     } else {
         difference4 = (noneTotal1 + noneTotal2 + noneTotal3 + noneTotal4 + noneTotal5 + noneTotal6) - (displayStreaming + displayNone)
-        document.getElementById("resultNone2").style.color = "red"
+        document.getElementById("resultNone2").style.color = "green"
         noneStatement = "You spent just enough, congrats"
     }
    
