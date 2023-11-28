@@ -352,7 +352,7 @@ document.getElementById("budgetButton").onclick = () => {
     let finalBudgetCost = document.getElementById("budgetCost").value
     let monthlyTime = finalBudgetCost / takeHome
 
-    document.getElementById("plannerText").innerHTML = `If you want to buy a ${finalBudget} you will need to save up your monthly take home earnings of ${takeHome} for ${Math.round(monthlyTime)} months or ${Math.round(monthlyTime/12)} years to reach $${finalBudgetCost}, can you wait that long? If not, loans are always an option, but keep in mind that interest will force you to pay more than the original price, and it'll be another monthly expense you'll have to account for. Good luck.`
+    document.getElementById("plannerText").innerHTML = `If you want to buy a ${finalBudget} you will need to save up your monthly take home earnings of $${takeHome} for ${Math.round(monthlyTime)} months or ${Math.round(monthlyTime/12)} years to reach $${finalBudgetCost}, can you wait that long? If not, loans are always an option, but keep in mind that interest will force you to pay more than the original price, and it'll be another monthly expense you'll have to account for. Good luck.`
     
 
     }
